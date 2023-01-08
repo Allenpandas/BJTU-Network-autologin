@@ -1,5 +1,5 @@
 # BJTU-edu-network-autologin
-北京交通大学校园网自动登录脚本，适用于local.bjtu.edu.cn和web.bjtu.edu.cn。（Beijing Jiaotong University EDU network automatic login script for local.bjtu.edu.cn and web.bjtu.edu.cn.）
+北京交通大学校园网自动登录脚本，适用于local.bjtu.edu.cn和web.bjtu.edu.cn。| Beijing Jiaotong University EDU network automatic login script for local.bjtu.edu.cn and web.bjtu.edu.cn.
 
 ## 1.工作原理
 
