@@ -13,7 +13,7 @@
 克隆仓库代码
 
 ```shell
-git clone https://github.com/wuyalun/BJTU-edu-network-autologin.git
+git clone XXX # 填仓库地址
 ```
 
 打开autologin.py文件，在user处填写学号（或工号）、在password处填写密码，然后保存autologin.py文件。
@@ -31,7 +31,7 @@ password = ''
 
 ```shell
 # 进入到项目目录
-cd BJTU-edu-network-autologin/
+cd XXX/  # 填项目文件名
 
 # 执行python脚本
 python3 autologin.py
