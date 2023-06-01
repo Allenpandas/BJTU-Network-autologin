@@ -26,12 +26,14 @@ while(True):
             print('%s %s 连接正常' % (strftime('%Y-%m-%d'),strftime('%H:%M:%S')))
             time.sleep(refreshTime)
             pass
-
+        elif title == '信息页':
+            print('%s %s 本账号暂停使用' % (strftime('%Y-%m-%d'),strftime('%H:%M:%S')))
+            time.sleep(refreshTime)
         else:
             t = str(int(round(time.time() * 1000)))  # 毫秒级时间戳
             schoolWebLoginURL = schoolWebURL+'/drcom/login?callback=dr'+t+'&DDDDD='+user+'&upass='+password+'&0MKKey=123456&R1=0&R3=0&R6=0&para=00&v6ip=&_='+t
-            print('%s %s 登录成功' % (strftime('%Y-%m-%d'),strftime('%H:%M:%S')))
             requests.get(schoolWebLoginURL)
+            print('%s %s 登录成功' % (strftime('%Y-%m-%d'),strftime('%H:%M:%S')))
     except:
         print('%s %s WIFI连接异常' % (strftime('%Y-%m-%d'),strftime('%H:%M:%S')))
         print('%s %s %d 秒后重试' % (strftime('%Y-%m-%d'),strftime('%H:%M:%S'), refreshTime))
