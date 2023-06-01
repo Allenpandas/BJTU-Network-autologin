@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ps -ef | grep python3 autologin.py | grep -v grep
+ps -ef | grep autologin.py | grep -v grep
 
 if [ $? -ne 0 ]
 then
