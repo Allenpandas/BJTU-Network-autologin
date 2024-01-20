@@ -10,10 +10,10 @@
 
 ## 2.PC使用教程
 
-克隆仓库代码
+克隆本仓库代码
 
 ```shell
-git clone XXX # 填仓库地址
+git clone https://github.com/Allenpandas/BJTU-Network-autologin
 ```
 
 打开autologin.py文件，在user处填写学号（或工号）、在password处填写密码，然后保存autologin.py文件。
@@ -30,9 +30,6 @@ password = ''
 执行python脚本
 
 ```shell
-# 进入到项目目录
-cd XXX/  # 填项目文件名
-
 # 执行python脚本
 python3 autologin.py
 ```
