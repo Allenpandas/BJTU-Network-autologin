@@ -10,9 +10,11 @@
 
 ## 2.PC使用教程
 
-克隆本仓库代码
+创建目录并克隆本仓库代码
 
 ```shell
+mkdir -p /home/bjtu  # 递归创建目录
+cd /home/bjtu/  # 进入目录
 git clone https://github.com/Allenpandas/BJTU-Network-autologin
 ```
 
